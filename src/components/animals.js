@@ -87,9 +87,9 @@ function Animal({ weatherID, token }) {
                     <div className="modalImage">
                         <img src={image} alt='your-new-animal'></img>
                     </div>
-                    <div>Choose what you'd like to do with it!</div>
-                    <button className="modalButtonLeft" onClick={closeModal}>release back to the wild</button>
-                    <button className="modalButtonRight" onClick={handleCapture}>capture to your collection</button>
+                    <div className="modalChoiceTag">What would you like to do with it?</div>
+                    <button className="modalButtonLeft" onClick={closeModal}>Release</button>
+                    <button className="modalButtonRight" onClick={handleCapture}>Capture</button>
 
                 </Modal>
             </div>

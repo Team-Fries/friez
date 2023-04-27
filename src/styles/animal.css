@@ -3,7 +3,18 @@
 .modalTitle {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 25px;
+    color: rgb(46, 52, 94);
+
+}
+
+.modalChoiceTag {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: rgb(46, 52, 94);
+
 }
 
 .modalButtonRight {
